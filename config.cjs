@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const config = {
   // === Session & Command Settings ===
-  SESSION_ID: process.env.SESSION_ID || "DRAPTER-XMD~p5QVHAJB#zWQrFOWv3lo3eE2qbUzFe9ZRkBcqqSpM_UESj6yer1U",
+  SESSION_ID: process.env.SESSION_ID || "nector~U8IUXKjD#9drk6eja-GljBS8QcDmHCEaszP59xrr7k_HjihEYhGU",
   PREFIX: process.env.PREFIX || '*',
   MODE: process.env.MODE || "public", // public | private
 
