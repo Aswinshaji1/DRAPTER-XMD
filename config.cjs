@@ -19,16 +19,16 @@ const config = {
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN === 'false' ? false : true,
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY === 'false' ? false : true,
   AUTO_DL: process.env.AUTO_DL === 'true',
-  AUTO_READ: process.env.AUTO_READ === 'true',
+  AUTO_READ: process.env.AUTO_READ === 'false',
   AUTO_TYPING: process.env.AUTO_TYPING === 'true',
   AUTO_RECORDING: process.env.AUTO_RECORDING === 'true',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'true',
-  AUTO_REACT: process.env.AUTO_REACT === 'true',
+  AUTO_REACT: process.env.AUTO_REACT === 'false',
   AUTO_BLOCK: process.env.AUTO_BLOCK === 'false' ? false : true, // default true for 212 numbers
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || '',
 
   // === Protection / Behavior Settings ===
-  REJECT_CALL: process.env.REJECT_CALL === 'true',
+  REJECT_CALL: process.env.REJECT_CALL === 'false',
   NOT_ALLOW: process.env.NOT_ALLOW === 'false' ? false : true, // default true
 
   // === Extra Features / API Keys ===
